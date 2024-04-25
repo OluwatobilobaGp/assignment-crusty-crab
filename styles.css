@@ -83,6 +83,7 @@ header {
 }
 .home-img img {
   width: 100%;
+  object-fit: cover;
 }
 .home-text h1 {
   font-size: var(--big-font);
