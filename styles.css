@@ -81,9 +81,20 @@ header {
   align-items: center;
   gap: 1.5rem;
 }
-.home-img img {
+.home-img {
   width: 100%;
-  object-fit: cover;
+  height: 100%;
+  border-radius: 20px;
+  background-image: url("./image/22.jpeg"); /* The image used */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-img h3{
+  visibility:visible;
 }
 .home-text h1 {
   font-size: var(--big-font);
@@ -160,8 +171,9 @@ header {
 .box-img img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
+  border-radius: 20px;  
 }
 .box h2 {
   font-size: 1.2rem;
