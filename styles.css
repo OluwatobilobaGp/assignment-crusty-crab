@@ -168,6 +168,12 @@ header {
   width: 200px;
   height: 200px;
 }
+
+.box-book li, .box-wild li {
+  list-style-type: lower-roman;
+}
+
+
 .box-img img {
   width: 100%;
   height: 100%;
